@@ -21,4 +21,5 @@ Step Five: Open a terminal in your user or PC directory, and then type in ssh ke
 
 
 ![StepSix](BonusTips.PNG)
+
 Step Six: You can run commands immediately after connecting via the same line in the terminal, or you can even run numerous files at once (Credit: Joe Politz).
