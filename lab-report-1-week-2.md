@@ -1,6 +1,6 @@
 Lab Report 1 (Remote Connection):
 
-![VS Code Image](Step%20One%20Download%20VS Code.PNG)
+![VS Code Image](Step%20One%20Download%20VS%20Code.PNG)
 Step One: Download [VS Code](https://code.visualstudio.com/download). After that run the executable and choose your desired install path. Make sure you can open a new file etc.
 
 ![Remote Connection](Step%20Two.PNG)
