@@ -11,5 +11,6 @@ Step Three: You should see something similar to the picture above. Now play arou
 
 ![StepFourPt1](StepFourOne.PNG)
 ![StepFourPt2](StepFourTwo.PNG)
+
 Step Four: Create a new java file like you normally would (i.e., new file), and from there do your coding. When you're ready to copy it to your server location open a new terminal in your file's working directory, then type in scp "your file name" "your server name" to copy it into your server account after you enter your password. You then close this terminal, and type ls in your home path in your server account terminal to ensure the file copied.
 
