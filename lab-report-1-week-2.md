@@ -11,11 +11,11 @@ In the Get Started menu of VS Code, click the Terminal buttom at the top left of
 ![Remote Connection](Step%20Two.PNG)
 
 ## Step Three: 
-You should see something similar to the picture above. Now play around with some example commands like ls to list all the files in your current directory, or cd to move to directory within your current one.
+You should see something similar to the picture above. Now play around with some example commands like `ls` to list all the files in your current directory, or `cd` followed by the directory name, to move to directory within your current one.
 ![Example Commands](Step%20Three%20Example%20Commands.PNG)
 
 ## Step Four: 
-Create a new java file like you normally would (i.e., new file), and from there do your coding. When you're ready to copy it to your server location open a new terminal in your file's working directory, then type in scp "your file name" "your server name" to copy it into your server account after you enter your password. You then close this terminal, and type ls in your home path in your server account terminal to ensure the file copied.
+Create a new java file like you normally would (i.e., click file, then hit new file), and from there do your coding. When you're ready to copy it to your server location open a new terminal like we did above in your file's working directory, then type in `scp "your file name" "your server name"` to copy it into your server account after you enter your password. You then close this terminal, and type `ls` in your home path in your server account terminal to ensure the file copied. After typing `ls`, you should observe your file in the list of files present.
 ![StepFourPt1](StepFourOne.PNG)
 ![StepFourPt2](StepFourTwo.PNG)
 
