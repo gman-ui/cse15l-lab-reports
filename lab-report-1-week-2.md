@@ -6,11 +6,11 @@ Download [VS Code](https://code.visualstudio.com/download) and openSSH if your P
 ![VS Code Image](Step%20One%20Download%20VS%20Code.PNG)
 
 ## Remotely Connecting
-In the Get Started menu of VS Code, click the Terminal buttom at the top left of the screen. In the drop-down menu, click the create new terminal button, and then from there type the following command to connect to your account: `ssh cs15lwi22XX@ieng6.ucsd.edu`, with XX being your assigned letters. You will then have to enter your password, and after that, you will be in the home directory of your student account.
+In the Get Started menu of VS Code, click the Terminal buttom at the top left of the screen. In the drop-down menu, click the create new terminal button, and then from there type the following command to connect to your account: `ssh cs15lwi22XX@ieng6.ucsd.edu`, with XX being your assigned letters. You will then have to enter your password, and after that, you will be in the home directory of your student remote account.
 ![Remote Connection](Step%20Two.PNG)
 
 ## Trying Some Commands
-Some example commands include `ls` to list all the files in your current directory, or `cd` followed by the directory name, to move to a directory within your current one. You can also use `cp` to copy files from a given directory, `make` to create new files, and when you're done, type `exit` to cut your connection.
+Some example commands include `ls` to list all the files in your current directory, or `cd` followed by the directory name, to move to a directory within your current one. You can also use `cp` to copy files from a given directory, `make` to create new files of whatever type, and when you're done, type `exit` to cut your connection.
 ![Example Commands](Step%20Three%20Example%20Commands.PNG)
 
 ## Moving Files with `scp`
@@ -25,6 +25,6 @@ Open a terminal in your user or PC directory, and then type in `ssh keygen`. Cre
 ![StepFivePt2](StepFiveTwo.PNG)
 
 ## Optimizing Remote Running
-Now that we've set up an SSH key, we can go into our student account on a whim, or even access commands immediately on the same line as the ssh. For example, you can type `ssh cs15lwi22@ieng6.ucsd.edu "ls"` to immediately enter your account and list its contents. Since you have the SSH key setup, you no longer need to enter your password, which saves me about twenty keystrokes for my password. In addition, since you have to hit "enter" every single time, you are saving time in this regard which may not seem like much, but if you enter dozens of commands on the same line, it could save time. In addition, you can copy multiple files at once saying something like `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` to copy all of those files at once.
+Now that we've set up an SSH key, we can go into our student account on a whim, or even access commands immediately on the same line as the `ssh` command. For example, you can type `ssh cs15lwi22@ieng6.ucsd.edu "ls"` to immediately enter your account and list its contents. Since you have the SSH key setup, you no longer need to enter your password, which saves me about twenty keystrokes for my password. In addition, since you have to hit "enter" every single time, you are saving time in this regard or one keystroke in this case, which may not seem like much, but if you enter dozens of commands on the same line, it could save time. In addition, you can copy multiple files at once saying something like `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` to copy all of those files at once. Thats at at least 4 keystrokes saved, and if you `ssh` in at the same time, that's 24, making your experience more efficient.
 ![StepSix](BonusTips.PNG)
 ![StepSix](NewPic.PNG)
