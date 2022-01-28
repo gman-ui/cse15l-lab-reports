@@ -12,6 +12,7 @@ In [test-file2](https://github.com/rafegers0n/cse15l-lab-reports/edit/main/test-
 **Diff Example**
 
 ![Diff Image](DiffNew.PNG)
+
 ![Fail Image](FaultyInput.PNG)
 
 In [test-file3](https://github.com/rafegers0n/cse15l-lab-reports/blob/main/test-file3.md), we put the brackets and parantheses in the wrong order to see what would happen. This caused an infinite loop (symptom) to occur when we ran our test as our junit test expected "(https://example.com)", but our code actually contained "(a link!)", so our code iterated until we ran out of memory, looking for our expected value and not being able to find it. By swapping the order of the parantheses and brackets, as seen in the diff above, our tests then work as expected.
@@ -19,7 +20,8 @@ In [test-file3](https://github.com/rafegers0n/cse15l-lab-reports/blob/main/test-
 ## Code Change Three
 **Diff Example**
 
-![Diff Image](DiffNew.PNG)
-![Fail Image](FaultyInput.PNG)
+![Diff Image](Test5Diff.PNG)
 
-In [test-file5](https://github.com/rafegers0n/cse15l-lab-reports/blob/main/test-file5.md), we put text in between the brackets and parantheses, and then put parantheses around the whole setup to see what would happen. This caused an infinite loop (symptom) to occur when we ran our test as our junit test expected "(https://example.com)", but our code actually contained "(a link!)", so our code iterated until we ran out of memory, looking for our expected value and not being able to find it. By swapping the order of the parantheses and brackets, as seen in the diff above, our tests then work as expected.
+![Fail Image](Test5Fail.PNG)
+
+In [test-file5](https://github.com/rafegers0n/cse15l-lab-reports/blob/main/test-file5.md), we put text in between the brackets and parantheses, and then put parantheses around the whole setup to see what would happen. This caused an infinite loop (symptom) to occur when we ran our test as our junit test expected "(page.com)", but our code actually contained "([woah](page.com))", so our code iterated until we ran out of memory, looking for our expected value and not being able to find it. By removing the extra parantheses, as seen in the diff above, our tests then work as expected.
