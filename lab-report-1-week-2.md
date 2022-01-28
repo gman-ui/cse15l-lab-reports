@@ -20,7 +20,7 @@ Create a new java file like you normally would (i.e., click file, then hit new f
 ![StepFourPt2](StepFourTwo.PNG)
 
 ## Step Five:
-Open a terminal in your user or PC directory, and then type in ssh keygen. Create a textfile in your user directory to store the key it, and then enter a passphrase and store the key in that file. Then, use the scp command in the same terminal to copy the file with key from your user directory to your server account under the /.ssh/authorized_keys directory.
+Open a terminal in your user or PC directory, and then type in `ssh keygen`. Create a textfile in your user directory (i.e., utilize file explorer to navigate to the spot where you wish to store the key and create a blank text file) to store the key in it, and then enter a passphrase and store the key in that file. Then, use the `scp` command in the same terminal to copy the file with key from your user directory to your server account under the /.ssh/authorized_keys directory.
 ![StepFivePt1](StepFive.PNG)
 ![StepFivePt2](StepFiveTwo.PNG)
 
