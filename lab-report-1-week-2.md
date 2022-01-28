@@ -7,7 +7,7 @@ Download [VS Code](https://code.visualstudio.com/download) and openSSH if your P
 
 
 ## Step Two:
-In the Get Started menu of VS Code, click the Terminal buttom at the top left of the screen. In the drop-down menu, click the create new terminal button, and then from there type the following command to connect to your account: ssh cs15lwi22ajx@ieng6.ucsd.edu
+In the Get Started menu of VS Code, click the Terminal buttom at the top left of the screen. In the drop-down menu, click the create new terminal button, and then from there type the following command to connect to your account: `ssh cs15lwi22ajx@ieng6.ucsd.edu`
 ![Remote Connection](Step%20Two.PNG)
 
 ## Step Three: 
