@@ -25,5 +25,6 @@ Open a terminal in your user or PC directory, and then type in `ssh keygen`. Cre
 ![StepFivePt2](StepFiveTwo.PNG)
 
 ## Optimizing Remote Running
-Talk about how many keystrokes the ssh key savesYou can run commands immediately after connecting via the same line in the terminal, or you can even run numerous files at once (Credit: Joe Politz).
+Now that we've set up an SSH key, we can go into our student account on a whim, or even access commands immediately on the same line as the ssh. For example, you can type `ssh cs15lwi22@ieng6.ucsd.edu "ls"` to immediately enter your account and list its contents. Since you have the SSH key setup, you no longer need to enter your password, which saves me about twenty keystrokes for my password. In addition, since you have to hit "enter" every single time, you are saving time in this regard which may not seem like much, but if you enter dozens of commands on the same line, it could save time. In addition, you can copy multiple files at once saying something like `cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI` to copy all of those files at once.
 ![StepSix](BonusTips.PNG)
+![StepSix](NewPic.PNG)
