@@ -1,6 +1,9 @@
 # Lab Report Week 4
 
-## Diff Example edit a test case and show the diff with it, it was read only
+## Diff Example 
+![Diff Image](DiffImage.PNG)
+
+edit a test case and show the diff with it, it was read only
 
 ##link to the failure inducing input
 
