@@ -1,12 +1,18 @@
 # Lab Report Week 4
 
-## Code Change One
-**Diff Example**
+## Change One: Images are Not Links
+**Diff**
 
-![Diff Image](StrayParantheses.PNG)
-![Fail Image](FirstFailure.PNG)
+![Diff Image](CodeChangeOne.PNG)
 
-In [test-file2](https://github.com/rafegers0n/cse15l-lab-reports/edit/main/test-file2.md), there was a stray parantheses (bug) in the site name. This caused an infinite loop (symptom) to occur when we ran our test as our junit test expected "(https://blah.com)", but our code actually contained "(https://blah).com)", so our code iterated until we ran out of memory, looking for our expected value and not being able to find it. By removing this parantheses, as seen in the diff above, our tests then work as expected.
+The [test-file](https://github.com/rafegers0n/cse15l-lab-reports/edit/main/test-file.md) that spurred us to make a change was:
+![BadInputOne](BrokenInputOne.PNG)
+
+The symptom of this bug was image files being included in the output after running our terminal commands. 
+![BadOutputOne](BrokenOutputOne.PNG)
+
+
+Both images and links use square brackets followed by parantheses, and our code doesn't know the difference between the two as it just searches for that order and adds the item to our toReturn arraylist, which is a bug. The symptom of this was that both images and links were printed in our final output. To rectify this, we added a sample of image extensions, which we can add to later, and created a for loop that checks the substring in our parantheses, the substring that would be added to our toReturn arraylist, for these extensions, and if it has any, it doesn't get added and doesn't get returned in our output.
 
 ## Code Change Two
 **Diff Example**
