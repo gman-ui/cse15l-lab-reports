@@ -1,6 +1,3 @@
-# title
 
-(a link!)[https://example.com]
-[another link!](test.html)
+[a link!]https://faultyinput.com
 
-more text here
