@@ -10,3 +10,5 @@ Assuming I have already completed the step from Lab One where I created an SSH k
 ![image](FirstWorks.PNG)
 
 Even better, I can copy files using the `scp` command followed by the file I wish to copy followed by my alias `ieng6`, rather than typing my full account name everytime I wish to `ssh` into my account and copy a file. ![image](ItWorks.PNG)
+
+As we can see, the file is there and the process worked!
