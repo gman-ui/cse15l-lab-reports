@@ -11,7 +11,7 @@ Expected: `['google.com, google.com, ucsd.edu]`
 
 My Output:
 
-![image](SnippetOutput1.PNG)
+![image](SnippetOutput4.PNG)
 
 Other Output:
 
