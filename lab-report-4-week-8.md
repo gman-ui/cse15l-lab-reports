@@ -38,7 +38,7 @@ Code Fix:
 ## Snippet Three
 ![image](SnippetTest3.PNG)
 
-Expected: `[a.com, a.com(()), example.com]`
+Expected: `[https://ucsd-cse15l-w22.github.io/]`
 
 My Output:
 
