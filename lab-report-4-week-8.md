@@ -15,6 +15,8 @@ My Output:
 
 Other Output:
 
+![image](OtherFail1.PNG)
+
 Code Fix:
 
 
@@ -29,6 +31,8 @@ My Output:
 
 Other Output:
 
+![image](OtherFail2.PNG)
+
 Code Fix:
 
 ## Snippet Three
@@ -41,5 +45,7 @@ My Output:
 ![image](SnippetOutput3.PNG)
 
 Other Output:
+
+![image](OtherFail3.PNG)
 
 Code Fix:
