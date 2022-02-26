@@ -10,6 +10,7 @@
 Expected: `['google.com, google.com, ucsd.edu]`
 
 My Output:
+
 ![image](SnippetOutput1.PNG)
 
 Other Output:
@@ -23,6 +24,7 @@ Code Fix:
 Expected: `[a.com, a.com(()), example.com]`
 
 My Output:
+
 ![image](SnippetOutput2.PNG)
 
 Other Output:
