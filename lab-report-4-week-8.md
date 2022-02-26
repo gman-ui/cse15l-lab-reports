@@ -2,7 +2,7 @@
 
 ## Links
 [My Markdown Parse](https://github.com/rafegers0n/markdown-parse)
-[Other Markdown Parse](https://github.com/5ean-github/markdown-parse)
+[Other Markdown Parse](https://github.com/BenX-64/markdown-parse)
 
 ## Snippet One
 ![image](SnippetTest1.PNG)
@@ -37,6 +37,7 @@ Code Fix:
 Expected: `[a.com, a.com(()), example.com]`
 
 My Output:
+
 ![image](SnippetOutput3.PNG)
 
 Other Output:
