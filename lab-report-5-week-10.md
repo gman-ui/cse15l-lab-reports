@@ -18,7 +18,7 @@ The top image contains the result of the given implementation on test 497, and t
 ## Test One
 ![Image](Test530.PNG)
 
-The top image contains the result of the given implementation on test 497, and the bottom is mine for test 497.
+The top image contains the result of the given implementation on test 530, and the bottom is mine for test 530.
 ### Given Implementation
 ![Image](Test530OutputGivenImpl.PNG)
 
