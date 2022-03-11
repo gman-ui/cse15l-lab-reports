@@ -37,6 +37,6 @@ The top image contains the result of the given implementation on test 530, and t
 ### Test File
 ![Image](Source530.PNG)
 
-
+For this one, I'd say my
 
 ![Image](MyCode.PNG)
