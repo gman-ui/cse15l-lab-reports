@@ -9,6 +9,5 @@ I used the command `bash script.sh > results.txt` inside each respective directo
 ![Image](Test497.PNG)
 
 
-![Image](Test497OutputMyImpl.PNG)
-![Image](Test497OutputGivenImpl.PNG)
+![Image](Test497OutputMyImpl.PNG) ![Image](Test497OutputGivenImpl.PNG)
 
