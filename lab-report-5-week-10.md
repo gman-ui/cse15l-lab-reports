@@ -18,6 +18,12 @@ The top image contains the result of the given implementation on test 497, and t
 ### Test File
 ![Image](Source497.PNG)
 
+For this one, I'd have to say that my implementation is right because even though there are extra parantheses, we're still following the left bracket, right bracket, left parantheses, right parantheses rule, which means we should be printing a link.
+
+![Image](JoeCode.PNG)
+
+
+
 ## Test One
 ![Image](Test530.PNG)
 
@@ -30,3 +36,7 @@ The top image contains the result of the given implementation on test 530, and t
 
 ### Test File
 ![Image](Source530.PNG)
+
+
+
+![Image](MyCode.PNG)
