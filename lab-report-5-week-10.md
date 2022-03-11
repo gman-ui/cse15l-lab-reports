@@ -8,7 +8,6 @@ I used the command `bash script.sh > results.txt` inside each respective directo
 ## Test One
 ![Image](Test497.PNG)
 
-The top image contains the result of the given implementation on test 497, and the bottom is mine for test 497.
 ### Given Implementation
 ![Image](TestOutput497GivenImpl.PNG)
 
@@ -27,7 +26,6 @@ I think the issue with the given implentation is that it looks for the "close pa
 ## Test Two
 ![Image](Test530.PNG)
 
-The top image contains the result of the given implementation on test 530, and the bottom is mine for test 530.
 ### Given Implementation
 ![Image](Test530OutputGivenImpl.PNG)
 
