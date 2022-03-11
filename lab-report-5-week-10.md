@@ -22,9 +22,9 @@ For this one, I'd have to say that my implementation is right because even thoug
 
 ![Image](JoeCode.PNG)
 
+I think the issue with the given implentation is that it looks for the "close paren" or right parantheses too early and trims it beforce it can get added to our toReturn. I'd suggest to just keep it simple by using a substring of left parantheses to the lastIndex of close parantheses, and we'll clean up the substring that is printed manually with some other code.
 
-
-## Test One
+## Test Two
 ![Image](Test530.PNG)
 
 The top image contains the result of the given implementation on test 530, and the bottom is mine for test 530.
