@@ -37,6 +37,10 @@ The top image contains the result of the given implementation on test 530, and t
 ### Test File
 ![Image](Source530.PNG)
 
-For this one, I'd say my
+For this one, I'd say my implementation is right again because an image extension, while using a similar format to the links in markdown, is not a link, so we shouldn't be printing anything.
 
 ![Image](MyCode.PNG)
+
+![Image](JoeCode.PNG)
+
+I put a picture of both codes for reference, but basically you need a separate helper, like `checkExtension`,  method that reads the extensions of the things within the parantheses, and if it contains any of the extensions like `.PNG`, `.JPG`, `.GIF`, etc, it will not be printed.
