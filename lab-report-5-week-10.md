@@ -20,7 +20,7 @@ The top image contains the result of the given implementation on test 497, and t
 
 The top image contains the result of the given implementation on test 497, and the bottom is mine for test 497.
 ### Given Implementation
-![Image](TestOutput498GivenImplementation.PNG)
+![Image](Test498OutputGivenImplementation.PNG)
 
 ### My Implementation
-![Iamge](Test497OutputMyImplentation.PNG)
+![Iamge](Test498OutputMyImplentation.PNG)
