@@ -8,8 +8,19 @@ I used the command `bash script.sh > results.txt` inside each respective directo
 ## Test One
 ![Image](Test497.PNG)
 
+The top image contains the result of the given implementation on test 497, and the bottom is mine for test 497.
 ### Given Implementation
 ![Image](TestOutput497GivenImpl.PNG)
 
 ### My Implementation
 ![Iamge](Test497OutputMyImpl.PNG)
+
+## Test One
+![Image](Test498.PNG)
+
+The top image contains the result of the given implementation on test 497, and the bottom is mine for test 497.
+### Given Implementation
+![Image](TestOutput498GivenImplementation.PNG)
+
+### My Implementation
+![Iamge](Test497OutputMyImplentation.PNG)
