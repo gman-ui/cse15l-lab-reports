@@ -16,11 +16,11 @@ The top image contains the result of the given implementation on test 497, and t
 ![Iamge](Test497OutputMyImpl.PNG)
 
 ## Test One
-![Image](Test498.PNG)
+![Image](Test530.PNG)
 
 The top image contains the result of the given implementation on test 497, and the bottom is mine for test 497.
 ### Given Implementation
-![Image](Test498OutputGivenImplementation.PNG)
+![Image](Test530OutputGivenImpl.PNG)
 
 ### My Implementation
-![Iamge](Test498OutputMyImplentation.PNG)
+![Iamge](Test530OutputMyImpl.PNG)
